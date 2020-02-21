@@ -24,6 +24,10 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.pbDraw = New System.Windows.Forms.PictureBox()
         Me.cbSize = New System.Windows.Forms.ComboBox()
+        Me.clearBtn = New System.Windows.Forms.Button()
+        Me.colorBtn = New System.Windows.Forms.Button()
+        Me.saveBtn = New System.Windows.Forms.Button()
+        Me.ColorDialog1 = New System.Windows.Forms.ColorDialog()
         CType(Me.pbDraw, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -45,11 +49,41 @@ Partial Class Form1
         Me.cbSize.Size = New System.Drawing.Size(121, 21)
         Me.cbSize.TabIndex = 1
         '
+        'clearBtn
+        '
+        Me.clearBtn.Location = New System.Drawing.Point(246, 417)
+        Me.clearBtn.Name = "clearBtn"
+        Me.clearBtn.Size = New System.Drawing.Size(75, 23)
+        Me.clearBtn.TabIndex = 2
+        Me.clearBtn.Text = "Clear"
+        Me.clearBtn.UseVisualStyleBackColor = True
+        '
+        'colorBtn
+        '
+        Me.colorBtn.Location = New System.Drawing.Point(349, 417)
+        Me.colorBtn.Name = "colorBtn"
+        Me.colorBtn.Size = New System.Drawing.Size(75, 23)
+        Me.colorBtn.TabIndex = 3
+        Me.colorBtn.Text = "Color"
+        Me.colorBtn.UseVisualStyleBackColor = True
+        '
+        'saveBtn
+        '
+        Me.saveBtn.Location = New System.Drawing.Point(455, 417)
+        Me.saveBtn.Name = "saveBtn"
+        Me.saveBtn.Size = New System.Drawing.Size(75, 23)
+        Me.saveBtn.TabIndex = 4
+        Me.saveBtn.Text = "Save"
+        Me.saveBtn.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(793, 450)
+        Me.Controls.Add(Me.saveBtn)
+        Me.Controls.Add(Me.colorBtn)
+        Me.Controls.Add(Me.clearBtn)
         Me.Controls.Add(Me.cbSize)
         Me.Controls.Add(Me.pbDraw)
         Me.Name = "Form1"
@@ -61,4 +95,8 @@ Partial Class Form1
 
     Friend WithEvents pbDraw As PictureBox
     Friend WithEvents cbSize As ComboBox
+    Friend WithEvents clearBtn As Button
+    Friend WithEvents colorBtn As Button
+    Friend WithEvents saveBtn As Button
+    Friend WithEvents ColorDialog1 As ColorDialog
 End Class
