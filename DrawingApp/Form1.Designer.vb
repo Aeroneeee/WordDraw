@@ -43,7 +43,7 @@ Partial Class Form1
         'cbSize
         '
         Me.cbSize.FormattingEnabled = True
-        Me.cbSize.Items.AddRange(New Object() {"2", "3", "4", "5", "6", "7", "8", "9", "10"})
+        Me.cbSize.Items.AddRange(New Object() {"2", "4", "6", "8", "10", "12", "14"})
         Me.cbSize.Location = New System.Drawing.Point(368, 12)
         Me.cbSize.Name = "cbSize"
         Me.cbSize.Size = New System.Drawing.Size(121, 21)
