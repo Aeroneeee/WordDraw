@@ -20,3 +20,14 @@ C:\Users\Aerone\Documents\Visual Studio 2019\WordDraw\DrawingApp\obj\Debug\WordD
 C:\Users\Aerone\Documents\Visual Studio 2019\WordDraw\DrawingApp\obj\Debug\DrawingApp.exe
 C:\Users\Aerone\Documents\Visual Studio 2019\WordDraw\DrawingApp\obj\Debug\DrawingApp.xml
 C:\Users\Aerone\Documents\Visual Studio 2019\WordDraw\DrawingApp\obj\Debug\DrawingApp.pdb
+C:\Users\CJMulingbayan\Documents\projects\WordDraw\DrawingApp\bin\Debug\DrawingApp.exe.config
+C:\Users\CJMulingbayan\Documents\projects\WordDraw\DrawingApp\obj\Debug\DrawingApp.exe
+C:\Users\CJMulingbayan\Documents\projects\WordDraw\DrawingApp\obj\Debug\DrawingApp.xml
+C:\Users\CJMulingbayan\Documents\projects\WordDraw\DrawingApp\obj\Debug\DrawingApp.pdb
+C:\Users\CJMulingbayan\Documents\projects\WordDraw\DrawingApp\bin\Debug\DrawingApp.exe
+C:\Users\CJMulingbayan\Documents\projects\WordDraw\DrawingApp\bin\Debug\DrawingApp.pdb
+C:\Users\CJMulingbayan\Documents\projects\WordDraw\DrawingApp\bin\Debug\DrawingApp.xml
+C:\Users\CJMulingbayan\Documents\projects\WordDraw\DrawingApp\obj\Debug\WordDraw.vbprojResolveAssemblyReference.cache
+C:\Users\CJMulingbayan\Documents\projects\WordDraw\DrawingApp\obj\Debug\DrawingApp.Form1.resources
+C:\Users\CJMulingbayan\Documents\projects\WordDraw\DrawingApp\obj\Debug\DrawingApp.Resources.resources
+C:\Users\CJMulingbayan\Documents\projects\WordDraw\DrawingApp\obj\Debug\WordDraw.vbproj.GenerateResource.Cache
