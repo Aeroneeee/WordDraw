@@ -1,11 +1,25 @@
 ﻿Imports System.Drawing
+Imports System.Drawing.Drawing2D
 
 Public Class Form1
+    Dim xEnd, yEnd As Integer
     Dim Draw As Boolean
     Dim DrawColor As Color = Color.Black
-    Dim DrawSize As Byte = 6
+    Dim DrawSize As Byte = 4
+    Dim myPen As New Pen(Color.Black, 4)
 
     Dim bmp As Bitmap
+
+    Private Sub PaintBrush(X As Integer, Y As Integer)
+        Using g As Graphics = Graphics.FromImage(pbDraw.Image)
+            g.SmoothingMode = SmoothingMode.HighQuality
+            g.InterpolationMode = InterpolationMode.HighQualityBicubic
+            g.PixelOffsetMode = PixelOffsetMode.HighQuality
+            g.DrawLine(myPen, X, Y, xEnd, yEnd)
+        End Using
+
+        pbDraw.Refresh()
+    End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         ' Set initial brush size
@@ -15,16 +29,10 @@ Public Class Form1
         ' Populate picturebox image property
         bmp = New Bitmap(pbDraw.Width, pbDraw.Height)
 
+        myPen = New Pen(DrawColor, DrawSize)
+
         pbDraw.Image = bmp
 
-    End Sub
-
-    Private Sub PaintBrush(X As Integer, Y As Integer)
-        Using g As Graphics = Graphics.FromImage(pbDraw.Image)
-            g.FillEllipse(New SolidBrush(DrawColor), New Rectangle(X, Y, DrawSize, DrawSize))
-        End Using
-
-        pbDraw.Refresh()
     End Sub
 
     Private Sub pbDraw_MouseDown(sender As Object, e As MouseEventArgs) Handles pbDraw.MouseDown
@@ -32,12 +40,16 @@ Public Class Form1
 
         'first pixel
         PaintBrush(e.X, e.Y)
+        myPen = New Pen(DrawColor, DrawSize)
     End Sub
 
     Private Sub pbDraw_MouseMove(sender As Object, e As MouseEventArgs) Handles pbDraw.MouseMove
         If Draw Then
             PaintBrush(e.X, e.Y)
         End If
+        xEnd = e.X
+        yEnd = e.Y
+
     End Sub
 
     Private Sub pbDraw_MouseUp(sender As Object, e As MouseEventArgs) Handles pbDraw.MouseUp

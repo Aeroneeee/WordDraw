@@ -36,7 +36,7 @@ Partial Class Form1
         Me.pbDraw.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.pbDraw.Location = New System.Drawing.Point(12, 12)
         Me.pbDraw.Name = "pbDraw"
-        Me.pbDraw.Size = New System.Drawing.Size(766, 389)
+        Me.pbDraw.Size = New System.Drawing.Size(350, 350)
         Me.pbDraw.TabIndex = 0
         Me.pbDraw.TabStop = False
         '
@@ -44,14 +44,14 @@ Partial Class Form1
         '
         Me.cbSize.FormattingEnabled = True
         Me.cbSize.Items.AddRange(New Object() {"2", "3", "4", "5", "6", "7", "8", "9", "10"})
-        Me.cbSize.Location = New System.Drawing.Point(91, 417)
+        Me.cbSize.Location = New System.Drawing.Point(368, 12)
         Me.cbSize.Name = "cbSize"
         Me.cbSize.Size = New System.Drawing.Size(121, 21)
         Me.cbSize.TabIndex = 1
         '
         'clearBtn
         '
-        Me.clearBtn.Location = New System.Drawing.Point(246, 417)
+        Me.clearBtn.Location = New System.Drawing.Point(368, 310)
         Me.clearBtn.Name = "clearBtn"
         Me.clearBtn.Size = New System.Drawing.Size(75, 23)
         Me.clearBtn.TabIndex = 2
@@ -60,7 +60,7 @@ Partial Class Form1
         '
         'colorBtn
         '
-        Me.colorBtn.Location = New System.Drawing.Point(349, 417)
+        Me.colorBtn.Location = New System.Drawing.Point(368, 39)
         Me.colorBtn.Name = "colorBtn"
         Me.colorBtn.Size = New System.Drawing.Size(75, 23)
         Me.colorBtn.TabIndex = 3
@@ -69,7 +69,7 @@ Partial Class Form1
         '
         'saveBtn
         '
-        Me.saveBtn.Location = New System.Drawing.Point(455, 417)
+        Me.saveBtn.Location = New System.Drawing.Point(368, 339)
         Me.saveBtn.Name = "saveBtn"
         Me.saveBtn.Size = New System.Drawing.Size(75, 23)
         Me.saveBtn.TabIndex = 4
@@ -80,7 +80,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(793, 450)
+        Me.ClientSize = New System.Drawing.Size(494, 376)
         Me.Controls.Add(Me.saveBtn)
         Me.Controls.Add(Me.colorBtn)
         Me.Controls.Add(Me.clearBtn)
