@@ -31,3 +31,11 @@ C:\Users\CJMulingbayan\Documents\projects\WordDraw\DrawingApp\obj\Debug\WordDraw
 C:\Users\CJMulingbayan\Documents\projects\WordDraw\DrawingApp\obj\Debug\DrawingApp.Form1.resources
 C:\Users\CJMulingbayan\Documents\projects\WordDraw\DrawingApp\obj\Debug\DrawingApp.Resources.resources
 C:\Users\CJMulingbayan\Documents\projects\WordDraw\DrawingApp\obj\Debug\WordDraw.vbproj.GenerateResource.Cache
+C:\Users\CJMulingbayan\Documents\projects\WordDraw\DrawingApp\bin\Debug\FireSharp.dll
+C:\Users\CJMulingbayan\Documents\projects\WordDraw\DrawingApp\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\CJMulingbayan\Documents\projects\WordDraw\DrawingApp\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\CJMulingbayan\Documents\projects\WordDraw\DrawingApp\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\CJMulingbayan\Documents\projects\WordDraw\DrawingApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\CJMulingbayan\Documents\projects\WordDraw\DrawingApp\bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\CJMulingbayan\Documents\projects\WordDraw\DrawingApp\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\CJMulingbayan\Documents\projects\WordDraw\DrawingApp\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
