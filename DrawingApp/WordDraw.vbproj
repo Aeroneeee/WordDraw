@@ -154,6 +154,96 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brown_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dblue_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dgreen_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dviolet_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gray_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orange_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\peach_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pink_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\violet_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellow_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black_unselected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue_unselected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brown_unselected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dblue_unselected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dgreen_selected1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dviolet_unselected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gray_unselected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green_selected1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orange_unselected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\peach_unselected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pink_unselected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red_unselected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\violet_unselected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellow_unselected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eraser_unselcted.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eraser_selected.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <Import Project="..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />
   <Target Name="EnsureBclBuildImported" BeforeTargets="BeforeBuild" Condition="'$(BclBuildImported)' == ''">
