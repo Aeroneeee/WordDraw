@@ -71,14 +71,6 @@ Public Class Form1
         DrawSize = cbSize.SelectedItem
     End Sub
 
-    Private Sub colorBtn_Click(sender As Object, e As EventArgs) Handles colorBtn.Click
-        If ColorDialog1.ShowDialog() = Windows.Forms.DialogResult.OK Then
-            DrawColor = ColorDialog1.Color
-        End If
-    End Sub
-
-
-
     Private Sub pbBlack_Click(sender As Object, e As EventArgs) Handles pbBlack.Click
         unSelectAll()
         pbBlack.BackgroundImage = My.Resources.black_selected
@@ -177,7 +169,15 @@ Public Class Form1
         pbEraser.BackgroundImage = My.Resources.eraser_unselcted
     End Sub
 
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        drawingControls.Visible = False
+        guesserInput.Visible = True
+    End Sub
 
+    Private Sub meDraw_Click(sender As Object, e As EventArgs) Handles meDraw.Click
+        drawingControls.Visible = True
+        guesserInput.Visible = False
+    End Sub
 
     Private Sub saveBtn_Click(sender As Object, e As EventArgs)
         pbDraw.DrawToBitmap(bmp, New Rectangle(0, 0, pbDraw.Width, pbDraw.Height))
