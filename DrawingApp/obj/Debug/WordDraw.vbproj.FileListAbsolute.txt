@@ -57,3 +57,18 @@ C:\Users\Clarisse\Source\Repos\WordDraw\DrawingApp\obj\Debug\WordDraw.vbproj.Cop
 C:\Users\Clarisse\Source\Repos\WordDraw\DrawingApp\obj\Debug\DrawingApp.exe
 C:\Users\Clarisse\Source\Repos\WordDraw\DrawingApp\obj\Debug\DrawingApp.xml
 C:\Users\Clarisse\Source\Repos\WordDraw\DrawingApp\obj\Debug\DrawingApp.pdb
+C:\Users\Aerone\Documents\Visual Studio 2019\WordDraw\DrawingApp\bin\Debug\FireSharp.dll
+C:\Users\Aerone\Documents\Visual Studio 2019\WordDraw\DrawingApp\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\Aerone\Documents\Visual Studio 2019\WordDraw\DrawingApp\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\Aerone\Documents\Visual Studio 2019\WordDraw\DrawingApp\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\Aerone\Documents\Visual Studio 2019\WordDraw\DrawingApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Aerone\Documents\Visual Studio 2019\WordDraw\DrawingApp\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\Aerone\Documents\Visual Studio 2019\WordDraw\DrawingApp\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Aerone\Documents\Visual Studio 2019\WordDraw\DrawingApp\bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\Aerone\Documents\Visual Studio 2019\WordDraw\DrawingApp\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\Aerone\Documents\Visual Studio 2019\WordDraw\DrawingApp\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\Aerone\Documents\Visual Studio 2019\WordDraw\DrawingApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Aerone\Documents\Visual Studio 2019\WordDraw\DrawingApp\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\Aerone\Documents\Visual Studio 2019\WordDraw\DrawingApp\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\Aerone\Documents\Visual Studio 2019\WordDraw\DrawingApp\obj\Debug\WordDraw.vbproj.App.config
+C:\Users\Aerone\Documents\Visual Studio 2019\WordDraw\DrawingApp\obj\Debug\WordDraw.vbproj.CopyComplete
