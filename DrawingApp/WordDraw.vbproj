@@ -121,6 +121,7 @@
     <Compile Include="model\Game.vb" />
     <Compile Include="model\Player.vb" />
     <Compile Include="model\Round.vb" />
+    <Compile Include="Module1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -162,6 +163,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Resources\Black-coffee.ttf" />
     <None Include="Resources\black_selected.png" />
   </ItemGroup>
   <ItemGroup>

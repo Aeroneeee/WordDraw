@@ -50,7 +50,6 @@ C:\Users\Clarisse\Source\Repos\WordDraw\DrawingApp\bin\Debug\System.Net.Http.Ext
 C:\Users\Clarisse\Source\Repos\WordDraw\DrawingApp\bin\Debug\System.Net.Http.Primitives.xml
 C:\Users\Clarisse\Source\Repos\WordDraw\DrawingApp\obj\Debug\WordDraw.vbproj.App.config
 C:\Users\Clarisse\Source\Repos\WordDraw\DrawingApp\obj\Debug\WordDraw.vbprojAssemblyReference.cache
-C:\Users\Clarisse\Source\Repos\WordDraw\DrawingApp\obj\Debug\DrawingApp.Form1.resources
 C:\Users\Clarisse\Source\Repos\WordDraw\DrawingApp\obj\Debug\DrawingApp.Resources.resources
 C:\Users\Clarisse\Source\Repos\WordDraw\DrawingApp\obj\Debug\WordDraw.vbproj.GenerateResource.cache
 C:\Users\Clarisse\Source\Repos\WordDraw\DrawingApp\obj\Debug\WordDraw.vbproj.CopyComplete
@@ -72,3 +71,4 @@ C:\Users\Aerone\Documents\Visual Studio 2019\WordDraw\DrawingApp\bin\Debug\Syste
 C:\Users\Aerone\Documents\Visual Studio 2019\WordDraw\DrawingApp\bin\Debug\System.Net.Http.Primitives.xml
 C:\Users\Aerone\Documents\Visual Studio 2019\WordDraw\DrawingApp\obj\Debug\WordDraw.vbproj.App.config
 C:\Users\Aerone\Documents\Visual Studio 2019\WordDraw\DrawingApp\obj\Debug\WordDraw.vbproj.CopyComplete
+C:\Users\Clarisse\Source\Repos\WordDraw\DrawingApp\obj\Debug\DrawingApp.WordDraw.resources

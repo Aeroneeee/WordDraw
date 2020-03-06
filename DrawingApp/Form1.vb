@@ -1,7 +1,7 @@
 ﻿Imports System.Drawing
 Imports System.Drawing.Drawing2D
 
-Public Class Form1
+Public Class WordDraw
     Dim xEnd, yEnd As Integer
     Dim Draw As Boolean
     Dim DrawColor As Color = Color.Black
@@ -178,6 +178,11 @@ Public Class Form1
         drawingControls.Visible = True
         guesserInput.Visible = False
     End Sub
+
+    Private Sub SUBMIT_Click(sender As Object, e As EventArgs) Handles SUBMIT.Click
+
+    End Sub
+
 
     Private Sub saveBtn_Click(sender As Object, e As EventArgs)
         pbDraw.DrawToBitmap(bmp, New Rectangle(0, 0, pbDraw.Width, pbDraw.Height))
