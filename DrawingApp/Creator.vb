@@ -169,20 +169,23 @@ Public Class WordDraw
         pbEraser.BackgroundImage = My.Resources.eraser_unselcted
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs)
         drawingControls.Visible = False
         guesserInput.Visible = True
     End Sub
 
-    Private Sub meDraw_Click(sender As Object, e As EventArgs) Handles meDraw.Click
+    Private Sub meDraw_Click(sender As Object, e As EventArgs)
         drawingControls.Visible = True
         guesserInput.Visible = False
     End Sub
 
-    Private Sub SUBMIT_Click(sender As Object, e As EventArgs) Handles SUBMIT.Click
+    Private Sub SUBMIT_Click(sender As Object, e As EventArgs)
 
     End Sub
 
+    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs)
+
+    End Sub
 
     Private Sub saveBtn_Click(sender As Object, e As EventArgs)
         pbDraw.DrawToBitmap(bmp, New Rectangle(0, 0, pbDraw.Width, pbDraw.Height))

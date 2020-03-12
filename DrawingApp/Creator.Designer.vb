@@ -26,8 +26,6 @@ Partial Class WordDraw
         Me.clearBtn = New System.Windows.Forms.Button()
         Me.ListView1 = New System.Windows.Forms.ListView()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.pbBlack = New System.Windows.Forms.PictureBox()
         Me.pbGray = New System.Windows.Forms.PictureBox()
         Me.pbBrown = New System.Windows.Forms.PictureBox()
@@ -43,9 +41,6 @@ Partial Class WordDraw
         Me.pbViolet = New System.Windows.Forms.PictureBox()
         Me.pbDviolet = New System.Windows.Forms.PictureBox()
         Me.pbEraser = New System.Windows.Forms.PictureBox()
-        Me.guesserInput = New System.Windows.Forms.FlowLayoutPanel()
-        Me.SUBMIT = New System.Windows.Forms.Button()
-        Me.meDraw = New System.Windows.Forms.Button()
         Me.pbDraw = New System.Windows.Forms.PictureBox()
         Me.drawingControls = New System.Windows.Forms.Panel()
         CType(Me.pbBlack, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -63,7 +58,6 @@ Partial Class WordDraw
         CType(Me.pbViolet, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbDviolet, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbEraser, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.guesserInput.SuspendLayout()
         CType(Me.pbDraw, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.drawingControls.SuspendLayout()
         Me.SuspendLayout()
@@ -110,27 +104,6 @@ Partial Class WordDraw
         Me.Label1.Size = New System.Drawing.Size(97, 42)
         Me.Label1.TabIndex = 5
         Me.Label1.Text = "Label1"
-        '
-        'Button1
-        '
-        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(198, Byte), Integer), CType(CType(119, Byte), Integer))
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Black Coffee Regular", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(719, 12)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(153, 27)
-        Me.Button1.TabIndex = 21
-        Me.Button1.Text = "DONE"
-        Me.Button1.UseVisualStyleBackColor = False
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Font = New System.Drawing.Font("Louis George Café", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(3, 3)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(504, 52)
-        Me.TextBox1.TabIndex = 22
         '
         'pbBlack
         '
@@ -311,38 +284,6 @@ Partial Class WordDraw
         Me.pbEraser.TabIndex = 20
         Me.pbEraser.TabStop = False
         '
-        'guesserInput
-        '
-        Me.guesserInput.Controls.Add(Me.TextBox1)
-        Me.guesserInput.Controls.Add(Me.SUBMIT)
-        Me.guesserInput.Location = New System.Drawing.Point(260, 542)
-        Me.guesserInput.Name = "guesserInput"
-        Me.guesserInput.Size = New System.Drawing.Size(611, 60)
-        Me.guesserInput.TabIndex = 24
-        Me.guesserInput.Visible = False
-        '
-        'SUBMIT
-        '
-        Me.SUBMIT.BackColor = System.Drawing.Color.FromArgb(CType(CType(253, Byte), Integer), CType(CType(202, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.SUBMIT.FlatAppearance.BorderSize = 0
-        Me.SUBMIT.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.SUBMIT.Font = New System.Drawing.Font("Black Coffee Regular", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SUBMIT.Location = New System.Drawing.Point(513, 3)
-        Me.SUBMIT.Name = "SUBMIT"
-        Me.SUBMIT.Size = New System.Drawing.Size(94, 51)
-        Me.SUBMIT.TabIndex = 23
-        Me.SUBMIT.Text = "SUBMIT"
-        Me.SUBMIT.UseVisualStyleBackColor = False
-        '
-        'meDraw
-        '
-        Me.meDraw.Location = New System.Drawing.Point(719, 41)
-        Me.meDraw.Name = "meDraw"
-        Me.meDraw.Size = New System.Drawing.Size(152, 33)
-        Me.meDraw.TabIndex = 25
-        Me.meDraw.Text = "Me Draw"
-        Me.meDraw.UseVisualStyleBackColor = True
-        '
         'pbDraw
         '
         Me.pbDraw.BackColor = System.Drawing.SystemColors.ControlLightLight
@@ -372,7 +313,7 @@ Partial Class WordDraw
         Me.drawingControls.Controls.Add(Me.pbBlue)
         Me.drawingControls.Controls.Add(Me.pbGreen)
         Me.drawingControls.Controls.Add(Me.pbDgreen)
-        Me.drawingControls.Location = New System.Drawing.Point(261, 542)
+        Me.drawingControls.Location = New System.Drawing.Point(262, 542)
         Me.drawingControls.Name = "drawingControls"
         Me.drawingControls.Size = New System.Drawing.Size(610, 57)
         Me.drawingControls.TabIndex = 26
@@ -384,9 +325,6 @@ Partial Class WordDraw
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(86, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(166, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(884, 611)
         Me.Controls.Add(Me.drawingControls)
-        Me.Controls.Add(Me.meDraw)
-        Me.Controls.Add(Me.guesserInput)
-        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.ListView1)
         Me.Controls.Add(Me.pbDraw)
@@ -407,8 +345,6 @@ Partial Class WordDraw
         CType(Me.pbViolet, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pbDviolet, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pbEraser, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.guesserInput.ResumeLayout(False)
-        Me.guesserInput.PerformLayout()
         CType(Me.pbDraw, System.ComponentModel.ISupportInitialize).EndInit()
         Me.drawingControls.ResumeLayout(False)
         Me.ResumeLayout(False)
@@ -436,10 +372,5 @@ Partial Class WordDraw
     Friend WithEvents pbViolet As PictureBox
     Friend WithEvents pbDviolet As PictureBox
     Friend WithEvents pbEraser As PictureBox
-    Friend WithEvents Button1 As Button
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents guesserInput As FlowLayoutPanel
-    Friend WithEvents SUBMIT As Button
-    Friend WithEvents meDraw As Button
     Friend WithEvents drawingControls As Panel
 End Class
