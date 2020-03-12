@@ -25,7 +25,7 @@ Partial Class WordDraw
         Me.cbSize = New System.Windows.Forms.ComboBox()
         Me.clearBtn = New System.Windows.Forms.Button()
         Me.ListView1 = New System.Windows.Forms.ListView()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.roundNum = New System.Windows.Forms.Label()
         Me.pbBlack = New System.Windows.Forms.PictureBox()
         Me.pbGray = New System.Windows.Forms.PictureBox()
         Me.pbBrown = New System.Windows.Forms.PictureBox()
@@ -94,16 +94,16 @@ Partial Class WordDraw
         Me.ListView1.TabIndex = 4
         Me.ListView1.UseCompatibleStateImageBehavior = False
         '
-        'Label1
+        'roundNum
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Bebas Neue", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(424, 41)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(97, 42)
-        Me.Label1.TabIndex = 5
-        Me.Label1.Text = "Label1"
+        Me.roundNum.AutoSize = True
+        Me.roundNum.Font = New System.Drawing.Font("Bebas Neue", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.roundNum.ForeColor = System.Drawing.Color.White
+        Me.roundNum.Location = New System.Drawing.Point(424, 41)
+        Me.roundNum.Name = "roundNum"
+        Me.roundNum.Size = New System.Drawing.Size(110, 42)
+        Me.roundNum.TabIndex = 5
+        Me.roundNum.Text = "Round N"
         '
         'pbBlack
         '
@@ -325,7 +325,7 @@ Partial Class WordDraw
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(86, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(166, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(884, 611)
         Me.Controls.Add(Me.drawingControls)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.roundNum)
         Me.Controls.Add(Me.ListView1)
         Me.Controls.Add(Me.pbDraw)
         Me.Name = "WordDraw"
@@ -356,7 +356,7 @@ Partial Class WordDraw
     Friend WithEvents cbSize As ComboBox
     Friend WithEvents clearBtn As Button
     Friend WithEvents ListView1 As ListView
-    Friend WithEvents Label1 As Label
+    Friend WithEvents roundNum As Label
     Friend WithEvents pbBlack As PictureBox
     Friend WithEvents pbGray As PictureBox
     Friend WithEvents pbBrown As PictureBox
