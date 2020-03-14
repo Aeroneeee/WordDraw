@@ -118,10 +118,6 @@
       <DependentUpon>Creator.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.vb">
-      <DependentUpon>Form2.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form2.vb" />
     <Compile Include="model\Game.vb" />
     <Compile Include="model\Player.vb" />
     <Compile Include="model\Round.vb" />
