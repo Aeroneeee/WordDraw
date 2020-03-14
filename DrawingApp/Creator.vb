@@ -171,12 +171,12 @@ Public Class WordDraw
 
     Private Sub Button1_Click(sender As Object, e As EventArgs)
         drawingControls.Visible = False
-        guesserInput.Visible = True
+        'guesserInput.Visible = True
     End Sub
 
     Private Sub meDraw_Click(sender As Object, e As EventArgs)
         drawingControls.Visible = True
-        guesserInput.Visible = False
+        'guesserInput.Visible = False
     End Sub
 
     Private Sub SUBMIT_Click(sender As Object, e As EventArgs)
