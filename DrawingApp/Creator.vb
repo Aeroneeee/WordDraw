@@ -169,6 +169,19 @@ Public Class WordDraw
         pbEraser.BackgroundImage = My.Resources.eraser_unselcted
     End Sub
 
+<<<<<<< HEAD
+=======
+    Private Sub Button1_Click(sender As Object, e As EventArgs)
+        drawingControls.Visible = False
+        'guesserInput.Visible = True
+    End Sub
+
+    Private Sub meDraw_Click(sender As Object, e As EventArgs)
+        drawingControls.Visible = True
+        'guesserInput.Visible = False
+    End Sub
+
+>>>>>>> 3a79a79f4927055ef608dbc2b52baec12b5fcf38
     Private Sub SUBMIT_Click(sender As Object, e As EventArgs)
 
     End Sub
